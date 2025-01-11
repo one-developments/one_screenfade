@@ -1,7 +1,4 @@
-local isFadeOut = false
 
-
- 
 RegisterNUICallback('ready', function(data, cb)
     Config.UI = Config.DefaultTheme
     SendNUIMessage({
